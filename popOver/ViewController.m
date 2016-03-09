@@ -10,15 +10,30 @@
 
 @implementation ViewController
 
+@synthesize myLabel;
+
+-(void)prepareForSegue:(NSStoryboardSegue *)segue sender:(id)sender{
+    if ([segue.identifier isEqualToString:@"todo"]) {
+        //NSLog(@"todo");
+        SeccondViewContorler *vc = segue.destinationController;
+        vc.delegate = self;
+    }
+}
+
+-(void)done:(NSString*)name {
+    NSLog(@"back: %@",name);
+   [myLabel setStringValue:name];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    NSString *title = @"My Title";
+    [myLabel setStringValue:title];
     // Do any additional setup after loading the view.
 }
 
 - (void)setRepresentedObject:(id)representedObject {
     [super setRepresentedObject:representedObject];
-
     // Update the view, if already loaded.
 }
 

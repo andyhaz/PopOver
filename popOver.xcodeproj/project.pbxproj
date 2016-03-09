@@ -14,6 +14,7 @@
 		97DB4D211C9025880091D45C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97DB4D1F1C9025880091D45C /* Main.storyboard */; };
 		97DB4D2C1C9025880091D45C /* popOverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DB4D2B1C9025880091D45C /* popOverTests.m */; };
 		97DB4D371C9025880091D45C /* popOverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DB4D361C9025880091D45C /* popOverUITests.m */; };
+		97DB4D471C9026610091D45C /* SeccondViewContorler.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DB4D451C9026610091D45C /* SeccondViewContorler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		97DB4D321C9025880091D45C /* popOverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popOverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97DB4D361C9025880091D45C /* popOverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popOverUITests.m; sourceTree = "<group>"; };
 		97DB4D381C9025880091D45C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97DB4D441C9026610091D45C /* SeccondViewContorler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeccondViewContorler.h; sourceTree = "<group>"; };
+		97DB4D451C9026610091D45C /* SeccondViewContorler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeccondViewContorler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				97DB4D151C9025880091D45C /* AppDelegate.m */,
 				97DB4D1A1C9025880091D45C /* ViewController.h */,
 				97DB4D1B1C9025880091D45C /* ViewController.m */,
+				97DB4D441C9026610091D45C /* SeccondViewContorler.h */,
+				97DB4D451C9026610091D45C /* SeccondViewContorler.m */,
 				97DB4D1D1C9025880091D45C /* Assets.xcassets */,
 				97DB4D1F1C9025880091D45C /* Main.storyboard */,
 				97DB4D221C9025880091D45C /* Info.plist */,
@@ -269,6 +274,7 @@
 				97DB4D1C1C9025880091D45C /* ViewController.m in Sources */,
 				97DB4D191C9025880091D45C /* main.m in Sources */,
 				97DB4D161C9025880091D45C /* AppDelegate.m in Sources */,
+				97DB4D471C9026610091D45C /* SeccondViewContorler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

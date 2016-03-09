@@ -7,9 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "SeccondViewContorler.h"
 
-@interface ViewController : NSViewController
+@interface ViewController : NSViewController <SeccondViewContorlerDelegate>
 
+@property (weak) IBOutlet NSTextField *myLabel;
+//@property (nonatomic,strong) NSTextField* myLabel;
 
 @end
 
